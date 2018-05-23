@@ -4,7 +4,7 @@ def speak_to_grandma(grandma_string)
     puts "I LOVE YOU TOO PUMPKIN"
   elsif grandma_string.upcase == grandma_string
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif grandma_string == "WHAT DID YOU EAT TODAY?"
+  elsif grandma_string.upcase == grandma_string
     puts "NO, NOT SINCE 1938!"
   end
 end
